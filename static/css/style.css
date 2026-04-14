@@ -1,0 +1,35 @@
+body { font-family: system-ui, sans-serif; max-width: 48rem; margin: 2rem auto; padding: 0 1rem; }
+
+.page-header h2 { font-size: 1.1rem; font-weight: 500; color: #444; margin-top: 0.25rem; }
+
+.filtro-restaurante { margin-top: 1rem; }
+
+.filtro-linha { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-top: 0.25rem; }
+
+label { display: block; margin-bottom: 0.35rem; font-weight: 600; }
+
+select { min-width: 18rem; max-width: 100%; padding: 0.5rem; font-size: 1rem; }
+
+button[type="submit"] { padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
+
+th, td { border: 1px solid #ccc; padding: 0.5rem 0.75rem; text-align: left; }
+
+thead { background: #f0f0f0; }
+
+td.vazio { color: #fd0101; font-style: italic; text-align: center; }
+
+.hint { color: #555; margin-top: 0.75rem; font-size: 0.95rem; }
+
+.cadastro-restaurante { margin-top: 1.25rem; padding: 1rem; border: 1px solid #ddd; border-radius: 0.5rem; }
+
+.cadastro-restaurante h3 { margin: 0 0 0.75rem 0; font-size: 1.1rem; }
+
+.cadastro-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+
+input { width: 100%; padding: 0.5rem; font-size: 1rem; }
+
+@media (max-width: 640px) {
+  .cadastro-grid { grid-template-columns: 1fr; }
+}
